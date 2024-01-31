@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+ }
+  .heading{
+     color:black;
+     text-align:center;
+     position:relative;
+  }
+  .wedding{
+    background-color: white;
+    padding: 10px;
+     
+  }
+ 
+  .main{
+     height:500px;
+     position:relative;
+  }
+  .heading::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 96%;
+    top: 15px;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid black;
+    z-index: -1;
+    border-bottom: 0px;
+  }
+  
+  .main::after{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 96%;
+    bottom: 20%;
+    right: 2%;
+    border: 2px solid black;
+    z-index: -1;
+    border-top: 0px;
+  }
+ 
+ .menu-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ 
+ }
+ 
+ .menu-item {
+   background-color:white;
+   margin: 10px;
+   padding-top: 40px;
+   height:200px;
+   width: 160px;
+   text-align: center;
+ }
+ 
+ 
+ .sign-item {
+   color: grey;
+   padding-top: 140px;
+   height:200px;
+   width: 50px;
+ }
+ 
+ .texts{
+   height: 80px;
+   width: 200px;
+   text-align: left;
+   padding: 5px;
+   margin-top: 20px;
+   font-family: "Segoe UI", Arial, sans-serif;
+ }
+ .amount{
+   font-weight: bold;
+ }
+ 
+ .images-bag{
+   height: 150px;
+   width: 200px;
+ }
